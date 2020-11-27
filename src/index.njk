@@ -1,0 +1,23 @@
+{% extends "./_layouts/base.njk" %}
+
+{% block main %}
+<main>  
+    <center>
+    <section>
+        <h1>Customer Products</h1>
+        <span class="h2-border"></span>
+    </section>
+    </center>
+
+    <section class="grid">
+        {% for item in products %}
+        <div class="product-box">
+            <a href="/{{ item.title | slug }}">
+                <p>{{ item.title }}</p>
+                <img src="{{ item.image }}">
+            </a>
+        </div>
+        {% endfor %}
+    </section>
+</main>
+{% endblock %}

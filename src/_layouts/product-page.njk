@@ -1,0 +1,9 @@
+{% extends "./base.njk" %}
+
+{% block main %}
+    <section>
+        <h2>{{ product.title }}</h2>
+        <img src="{{ product.image }}" alt="{{ product.title }}"></img>
+        <p>{{ product.description }}</p>
+    </section>
+{% endblock %}

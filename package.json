@@ -1,0 +1,27 @@
+{
+  "name": "customer-products",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "eleventy-plugin-blog-tools": "^0.3.1",
+    "html-minifier": "^4.0.0",
+    "terser": "^5.3.8"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekoindia/ekostore-window.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ekoindia/ekostore-window/issues"
+  },
+  "homepage": "https://github.com/ekoindia/ekostore-window#readme",
+  "description": ""
+}
